@@ -1,6 +1,9 @@
 # Script to deploy the app
 # This file is needed only when you want to deploy the app to a Linux VM
 
+# install nginx
+sudo apt-get install -y nginx
+
 # install node
 pushd .
 cd ~
